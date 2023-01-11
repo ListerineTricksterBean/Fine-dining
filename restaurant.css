@@ -1405,9 +1405,9 @@ text-decoration: underline 1px white solid;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  row-gap: clamp(2rem, 4vw, 3.75rem);
   position: relative;
   top: 30px;
+  margin-bottom: 40px;
 }
 
 #services .menu-item {
@@ -1418,10 +1418,10 @@ text-decoration: underline 1px white solid;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: clamp(1rem, 2vw, 2.25rem);
   -webkit-box-shadow: 0px 4px 13px 2px rgb(0 0 0 / 20%);
     box-shadow: 0px 4px 13px 2px rgb(0 0 0 / 20%);
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 #services .menu-picture {
