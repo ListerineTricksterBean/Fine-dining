@@ -1,0 +1,622 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Swap our for actual link-->
+    <link rel="canonical" href="https://www.website.com/">
+
+    <meta name="description" content="Meta description for the page">
+    <meta name="keywords" content="">
+
+    <!--Social Media Display-->
+    <meta property="og:title" content="Title that shows up on google searches">
+    <meta property="og:description" content="Meta description for the page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="Official link for that page (https://www.site.com)">
+    <meta property="og:image" content="assets/images/social.jpg">
+    <meta property="og:image:secure_url" content="assets/images/social.jpg">
+
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png?v1">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Preload -->
+    
+    <link rel="preload" as="image" href="assets/images/logo-light.png">
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/roboto-v29-latin-regular.woff2" crossorigin="">
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/roboto-v29-latin-700.woff2" crossorigin="">
+
+    <link rel="stylesheet" href="restaurant.css">
+
+    <!-- Loading in page specific CSS sheets from css block -->
+    
+
+    <!--Put analytics tag here at the bottom to prevent it from render blocking-->
+
+    <title>HullSpicyCuisine | Spicy World Dishes Tasty and Nutritious | Hull, UK</title>
+</head>
+<body class="">
+    <!--Screen reader skip main nav-->
+    <a class="skip" aria-label="skip to main content" href="#main">Click To Skip To Main Content</a>
+
+    <!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<div id="navigation">
+    <div aria-hidden="true" class="background-color-div">
+        <!--This div is used to overcome a z-index issue where the open
+            #navbar-menu is on top of the #navigation. This bar places itself 
+            the #navbar-menu so that menu appears behind the #navigation
+        -->
+    </div>
+    <div class="container">
+        <!--Logo - Get SVGs if you can.  I use fiverr to get png's turned into SVGs. Highly recommend it, worth the $20 - get a light and dark version-->
+        <a class="logo" aria-label="click to go to home page" href="/index.html">
+            <!--Light Colored Logo, remove .dark image tag and the .light class if you don't have a dark and light version -->
+            <img class="light" aria-hidden="true" src="logo1.png" decoding="async" alt="logo" width="221" height="66">
+
+            <!--Dark Colored Logo-->
+            <img class="dark" aria-hidden="true" src="logo1.png" decoding="async" loading="lazy" alt="logo" width="221" height="66">
+        </a>
+
+        <!--Main Nav-->
+        <nav id="navbar-menu">
+            <ul>
+                <li><a class="active" href="/">Home</a></li>
+                <li><a class="" href="/about">About Us</a></li>
+                <li><a class="" href="/projects">Projects</a></li>
+                <li><a class="" href="/reviews">Reviews</a></li>
+                <li><a class="" href="/blog">Blog</a></li>
+                <li><a class="" href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!--Dark Mode toggle-->
+        <button id="dark-mode-toggle">
+            <!--Moon is an inline SVG so you can edit the color if needed-->
+            <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"></path></svg>
+            <img class="sun" aria-hidden="true" src="/assets/images/sun.svg" decoding="async" alt="sun" width="15" height="15">
+        </button>
+
+        <!--Mobile Nav toggle-->
+        <button class="hamburger-menu">
+            <span aria-hidden="true"></span>
+        </button>
+    </div>
+</div>
+    <main id="main">
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero">
+
+    <img class="image-desktop" src="image-hero-desktop.jpg">
+    <div class="container-1">
+
+        <div class="hero-text">
+<h1>The Best Food Experience in East Yorkshire</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dictum, nulla sit amet sodales tempor, dolor enim aliquam leo, id pretium erat mauris ac lorem.</p>
+        </div>
+
+<a href="" class="cs-button-solid">Order Online</a>
+<a href="" class="cs-button-solid2">Browse Locations</a>
+        
+</div>
+
+
+<img class="image-hero-mobile" src="food-1.jpg">
+
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services">
+    <div class="container-2">
+
+    <!----black card---->
+    <div class="card-wrapper-total">
+    <div class="card-wrapper-bg">
+<div class="card-wrapper-1">
+    <h2>Make A Reservation</h2>
+    <div class="card-form">
+        <h4>Call:<br><a>(917) 942 - 7243</a></h4>
+        <br>
+        <h4>Email:<br><a>book@restaurantly.com</a></h4>
+        <br>
+        <h4>Form:<br><a>Book here</a></h4>
+    </div>
+</div>
+    </div>
+
+<div class="card-wrapper-bg">
+<div class="card-wrapper-1">
+    <h2>Locations</h2>
+    <div class="card-form">
+        <h4>Call:<br><a>(917) 942 - 7243</a></h4>
+        <br>
+        <h4>Email:<br><a>book@restaurantly.com</a></h4>
+        <br>
+        <h4>Form:<br><a>Book here</a></h4>
+    </div>
+</div>
+</div>
+
+<div class="card-wrapper-bg">
+<div class="card-wrapper-1">
+    <h2>Open Hours</h2>
+    <div class="card-form">
+        <h4>Call:<br><a>(917) 942 - 7243</a></h4>
+        <br>
+        <h4>Email:<br><a>book@restaurantly.com</a></h4>
+        <br>
+        <h4>Form:<br><a>Book here</a></h4>
+    </div>
+</div>
+</div>
+    </div>
+
+
+
+
+<div class="services-text1">
+<h1>Enter Into A Unique And Memorable Culinary Experience</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipiscing elit et diam eu semper auctor metus amet nisl scelerisque rutrum suspendisse quis mauris sed sed arcu amet socis.</p>
+
+<a href="" class="cs-button-solid2">Browse Menu</a>
+</div>
+
+
+<div class="desktop-images-services">
+<img class="services-desktop-img-1" src="restaurant-desktop-1.jpg">
+<img class="services-desktop-img-2" src="restaurant-desktop-2.jpg">
+</div>
+
+
+
+<div class="services-menu-wrapper">
+
+<div class="cs-left">
+    <picture class="cs-picture cs-picture1" aria-hidden="true">
+        <source media="(max-width: 600px)" srcset="">
+        <source media="(min-width: 601px)" srcset="">
+        <img loading="lazy" decoding="async" src="restaurant-1.jpg" alt="house" width="414" height="400">
+    </picture>
+    <picture class="cs-picture cs-picture2" aria-hidden="true">
+        <source media="(max-width: 600px)" srcset="">
+        <source media="(min-width: 601px)" srcset="">
+        <img loading="lazy" decoding="async" src="food-2.jpg" alt="house" width="522" height="581">
+    </picture>
+</div>
+
+
+
+<div class="services-text2">
+    <div data-w-id="ab323d16-695f-409d-c65b-2fdde3c54430" style="height: 4px;" class="line-accent bold"></div>
+    <h2>Our Specials</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit et diam eu semper auctor metus amet nisl scelerisque rutrum suspendisse quis mauris sed sed arcu amet socis.</p>
+</div>
+
+
+<div class="card-break">
+    <ul class="menu-ul menu-card-group">
+        <li class="menu-item">
+            <picture class="menu-picture" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food1.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food1.jpg" alt="food" width="160" height="160">
+                </picture>
+                <div class="menu-info">
+                <h3 class="menu-h3">
+                    Yummy Food!
+                    <span class="menu-price">
+                        $50
+                    </span>
+                </h3>
+                <p class="menu-item-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+                </div>
+        </li>
+
+        <li class="menu-item">
+            <picture class="menu-picture" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food1.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food1.jpg" alt="food" width="160" height="160">
+                </picture>
+                <div class="menu-info">
+                <h3 class="menu-h3">
+                    Yummy Food!
+                    <span class="menu-price">
+                        $50
+                    </span>
+                </h3>
+                <p class="menu-item-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+                </div>
+        </li>
+    </div>
+
+
+    <div class="card-break">
+        <li class="menu-item">
+            <picture class="menu-picture" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food1.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food1.jpg" alt="food" width="160" height="160">
+                </picture>
+                <div class="menu-info">
+                <h3 class="menu-h3">
+                    Yummy Food!
+                    <span class="menu-price">
+                        $50
+                    </span>
+                </h3>
+                <p class="menu-item-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+                </div>
+        </li>
+
+        <li class="menu-item">
+            <picture class="menu-picture" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food1.jpg">
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food1.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/food1.jpg" alt="food" width="160" height="160">
+                </picture>
+                <div class="menu-info">
+                <h3 class="menu-h3">
+                    Yummy Food!
+                    <span class="menu-price">
+                        $50
+                    </span>
+                </h3>
+                <p class="menu-item-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+                </div>
+        </li>
+    </div>
+    </ul>
+
+    <div class="button-holder1">
+    <a href="" class="cs-button-solid">Reserve Your Table</a>
+    </div>
+
+</div>
+
+    </div>
+</section>
+
+
+
+<!-- ============================================ -->
+<!--                  About                       -->
+<!-- ============================================ -->
+
+<section id="about">
+    <div class="container-3">
+
+        <div class="about-text">
+        <span class="about-topper">About Us</span>
+        <h2 class="about-title">An Experience Twelve Years In The Making</h2>
+        <p>In consequat tincidunt turpis sit amet imperdiet. Praesent Class officelan nonatoureanor mauris laoreet, iaculis libero quis. Curabitur et tempus eri consequat tincidunt turpis sit amet imperdiet. Praesent nonatourean olei aptent taciti sociosqu ad litora torquent per.
+<br>
+<br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non tenetur, iure nihil ipsam qui atque commodi id voluptatem nesciunt, quis animi fuga cum doloribus! Eaque laboriosam, unde consectetur iure asperiores ullam. Consequuntur debitis a voluptatibus vitae optio autem explicabo quia neque est quas, in placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi laudantium voluptatibus rem libero error minus quia eligendi sapiente eos. </p>
+        
+            <div class="button-holder1">
+                <a href="" class="cs-button-solid">More About Us</a>
+                </div>
+
+        </div>
+
+
+    </div>
+
+    <img class="image-desktop-wine" src="wine-png.png">
+</section>
+
+
+<!-- ============================================ -->
+<!--            Extra Content To Rank             -->
+<!-- ============================================ -->
+
+<section id="extra">
+    <div class="container-4">
+
+        <h2 class="cs-title-large">As a restaurant we strive together, collaborate and provide the <span class="cs-color">best experience</span> for our clients.</h2>
+
+        
+        <div class="card-about">
+            <div class="card-about-content">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="writing-circle.png" alt="icon" width="94" height="94">
+                <h3>Top-notch Customer Service</h3>
+            </div>
+
+            <div class="card-about-content">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="writing-circle.png" alt="icon" width="94" height="94">
+                <h3>Expert Crafted Food</h3>
+            </div>
+
+            <div class="card-about-content">
+                <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="writing-circle.png" alt="icon" width="94" height="94">
+                <h3>Luxury Dining Area</h3>
+            </div>
+            
+        </div>
+
+
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                   Gallery                    -->
+<!-- ============================================ -->
+
+<section id="gallery">
+    <div class="container-5">
+
+
+        <div class="cs-left">
+            <picture class="cs-picture cs-picture1" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="">
+                <source media="(min-width: 601px)" srcset="">
+                <img loading="lazy" decoding="async" src="food-6.jpg" alt="house" width="414" height="400">
+            </picture>
+            <picture class="cs-picture cs-picture2" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="">
+                <source media="(min-width: 601px)" srcset="">
+                <img loading="lazy" decoding="async" src="food-5.jpg" alt="house" width="522" height="581">
+            </picture>
+        </div>
+
+
+    </div>
+</section>
+
+
+
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+
+<section id="reviews">
+    <div class="container-6">
+
+        <div class="reviews-content">
+            <div class="reviews-text">
+            <span class="reviews-span">Reviews</span>
+        <h2 class="reviews-h2">What People Say</h2>
+
+        <ul class="card-container-3">
+
+            <div class="card-desktop-wrapper">
+            <div class="card-item-wrapper">
+            <li class="cs-item">
+                <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/648d64902b95613ba4213d90b6d98ac2b2f109f8/9ef0b/assets/images/placeholder.png" alt="profile" width="68" height="68">
+                <span class="cs-name">Adrian</span>
+                <span class="cs-desc">Lorem Ipsum</span>
+                <p class="cs-card-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec ut viverra eros euismod. Vestibulum, diam suspendisse adipiscing diam quis.
+                </p>
+            </li>
+            <li class="cs-item">
+                <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/648d64902b95613ba4213d90b6d98ac2b2f109f8/9ef0b/assets/images/placeholder.png" alt="profile" width="68" height="68">
+                <span class="cs-name">Tony Busuego</span>
+                <span class="cs-desc">Coeur d'Alene, ID</span>
+                <p class="cs-card-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec ut viverra eros euismod. Vestibulum, diam suspendisse adipiscing diam quis.
+                </p>
+            </li>
+        
+
+            <li class="cs-item">
+                <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="https://d33wubrfki0l68.cloudfront.net/648d64902b95613ba4213d90b6d98ac2b2f109f8/9ef0b/assets/images/placeholder.png" alt="profile" width="68" height="68">
+                <span class="cs-name">Dan W.</span>
+                <span class="cs-desc">Coeur d'Alene, ID</span>
+                <p class="cs-card-p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec ut viverra eros euismod. Vestibulum, diam suspendisse adipiscing diam quis.
+                </p>
+            </li>
+            </div>
+        </div></ul>
+            </div>
+
+
+            
+            <div class="button-holder1">
+                <a href="" class="cs-button-solid">More Reviews</a>
+                </div>
+
+    </div>
+
+
+
+    </div>
+</section>
+
+
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="final">
+    <div class="container-7">
+
+        <div class="final-content">
+        <h2>Eat Happy With HullSpicyCuisine ;)</h2>
+
+
+        <a href="" class="cs-button-solid">Order Online</a>
+<a href="" class="cs-button-solid2">Browse Locations</a>
+
+        </div>
+
+
+
+    </div>
+</section>
+
+
+
+</main>
+    <!-- ============================================ -->
+<!--                   Footer                     -->
+<!-- ============================================ -->
+
+
+
+
+<footer id="footer">
+    <div class="container">
+
+        <div class="right-section">
+            <div class="lists">
+                <ul>
+                    <li><h2>Information</h2></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/testimonials">Reviews</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+                <ul>
+                    <li><h2>Services</h2></li>
+                    <li>Service1</li>
+                    <li>Service2</li>
+                    <li>Service4</li>
+                    <li>Service5</li>
+                </ul>
+                <ul>
+                    <li><h2>Contact</h2></li>
+                    <li><a href="/contact">First Address Line<br>Denver CO 80206</a></li>
+                    <li><a href="tel:555-779-4407">T: (555) 779-4407</a></li>
+                    <li><a href="mailto:email@email.com">Click to Email</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit">
+        <span>Designed and Hand Coded by</span>
+        <a href="" target="_blank" rel="noopener">Your Company Name</a>
+        <span class="copyright"> Copyright 2096 - Present</span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preload" as="image" href="/assets/images/landing.jpg">
+
+
+
+<link rel="stylesheet" href="restaurant.css">
+
+<!--Defer loading the whole page css-->
+<link rel="stylesheet" href="/css/local.css" media="all" onload="this.media='all'; this.onload=null;">
+
+
+<!-- Enter html code below -->
+
+
+
+    <script defer="" src="restaurant.js"></script>
+    
+    <!--
+        This script adds a class to the body after scrolling 100px
+        and we used these body.scroll styles to create some on scroll 
+        animations with the navbar
+    -->
+    <script defer="">
+        document.addEventListener('scroll', (e) => { 
+            const scroll = document.documentElement.scrollTop;
+            if(scroll >= 100){
+        document.querySelector('body').classList.add('scroll')
+            } else {
+            document.querySelector('body').classList.remove('scroll')
+            }
+        });
+    </script>
+
+
+<iframe id="netlify-identity-widget" title="Netlify identity widget" style="position: fixed; top: 0; left: 0; border: none; width: 100%; height: 100%; overflow: visible; background: transparent; display: none; z-index: 99; " src="about:blank">
+</iframe>
+
+
+
+</body>
+
+
+
+</html>
